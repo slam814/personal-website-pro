@@ -1,33 +1,44 @@
 body{
-    font-family: 'Nunito', sans-serif;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
 }
-
-p{
-    color: #C0C0C0;
+h1{
+    font-size: 50px;
+}
+h2{
     font-size: 40px;
 }
-
+.name-highlight{
+    color: darksalmon;
+}
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    
 }
-
-
-
-
-
-.as{
-    color: #EC4C7A;
-    font-size: 40px;
+.half-width img{
+    width: 100%;
 }
-button{
-    text-decoration: none;
-    background-image: linear-gradient(45deg,#EC4C76, tomato);
-     padding: 10px 20px;
-     border-radius: 10px;
-     color: white;
-     font-weight: 700;
-     box-shadow: 10px 10px 40px gray; ;
+.half-width p{
+    font-size: 20px;
+}
+.top-baner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 950px;
+    
+}
+.div-in-div{
+    margin-top: 340px;
+    margin-left: 130px;
+}
+.biography{
+    margin-top: 360px;
+}
+.seond-baner{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
 }
