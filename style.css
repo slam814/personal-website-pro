@@ -19,6 +19,7 @@ h2{
 }
 .half-width img{
     width: 100%;
+    
 }
 .half-width p{
     font-size: 20px;
@@ -27,18 +28,62 @@ h2{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
 }
-section{
-    height: 950px;
+.top-baner img{
+    padding-top: 50%;
+}
+.top-baner-text{
+    padding-top: 50%;
+    padding-left: 25%;
     
 }
-.div-in-div{
-    margin-top: 340px;
-    margin-left: 130px;
+section{
+    height: 950px;
+    padding-bottom: 200px;
 }
+
 .biography{
     margin-top: 360px;
 }
 .seond-baner{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
+}
+.latest-work-bg{
+
+background-image: url(images/latest-work-bg.png);
+
+
+}
+.latest-work-bg img{
+   
+    width: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.work-image{
+    padding-left: 4%;
+}
+.last-work-hadding{
+ text-align: center;
+}
+.footer-baner{
+    background-image: url(images/footer-bg.png);
+}
+.footer-text{
+    text-align: center;
+}
+
+.footer-box{
+    background-color: green;
+    width: 400px;
+    height: 40px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 550px;
+    border-radius: 10px;
+    text-align: center;
+}
+footer p{
+text-align: center;
 }
